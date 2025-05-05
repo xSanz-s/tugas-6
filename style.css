@@ -33,7 +33,9 @@ nav {
 .btn-primary:active {
   background-color: hsl(268, 97%, 55%);
 }
-
+.btn-outline-secondary:hover{
+  background-color: black;
+}
 .section {
   max-width: 800px;
   margin: 2rem auto;
