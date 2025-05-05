@@ -13,15 +13,21 @@
 
   <body>
     <nav class="navbar bg-body-tertiary mt-0">
-      <div class="container-fluid bg-primary navbar-dark m-0">
+      <div class="container-fluid bg-warning navbar-dark m-0">
         <a class="navbar-brand" href="#">
           <img
-            src="tugas 6 finish\resources\quiz-on-computer-with-question-signs-around-svgrepo-com.svg"
+            src="resources\quiz-on-computer-with-question-signs-around-svgrepo-com.svg"
             width="30"
-            height="24"
             class="d-inline-block align-text-top"
           />
           WebQuiz
+        </a>
+        <a class="navbar" href="#">
+          <img
+            src="resources\profile-circle-svgrepo-com.svg"
+            width="30"
+            class="d-inline-block align-text-top"
+          />
         </a>
       </div>
     </nav>
@@ -31,7 +37,7 @@
         <h1 class="display-4 mb-4">Selamat Datang di WebQuiz!</h1>
         <h2>Mari Uji Pengetahuanmu!</h2>
         <hr>
-        <button class="btn btn-primary btn-lg" onclick="showSection('rules')">
+        <button class="btn btn-warning btn-lg" onclick="showSection('rules')">
           Mulai
         </button>
       </div>
@@ -60,7 +66,7 @@
         <button class="btn btn-outline-secondary" onclick="showSection('home')">
           Kembali
         </button>
-        <button class="btn btn-primary" onclick="startQuiz()">Mulai</button>
+        <button class="btn btn-warning" onclick="startQuiz()">Mulai</button>
       </div>
     </div>
 
@@ -74,7 +80,7 @@
       <div id="question-container" class="mb-4"></div>
       <div id="options-container"></div>
 
-      <button id="next-btn" class="btn btn-primary mt-4 w-100" disabled>
+      <button id="next-btn" class="btn btn-warning mt-4 w-100" disabled>
         Lanjut <i class="bi bi-arrow-right"></i>
       </button>
     </div>
@@ -87,7 +93,7 @@
         <div class="text-muted">Total Poin</div>
       </div>
       <div class="d-grid gap-2">
-        <button class="btn btn-primary" onclick="location.reload()">
+        <button class="btn btn-warning" onclick="location.reload()">
           Main Lagi
         </button>
       </div>

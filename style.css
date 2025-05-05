@@ -7,7 +7,7 @@
   src: url(fonts/Poppins/Poppins-Regular.ttf);
 }
 :root {
-  --primary-color: #5203ac;
+  --primary-color: #e3e017;
   --correct-color: #28a745;
   --wrong-color: #dc3545;
 }
@@ -19,19 +19,19 @@ body {
 nav {
   font-family: poppins-bold;
 }
-.bg-primary {
+.bg-warning {
   background-color: var(--primary-color);
 }
 .btn-primary,
-.btn-primary:disabled {
+.btn-warning:disabled {
   background-color: var(--primary-color);
   border: #dee2e6;
 }
 .btn-primary:hover {
-  background-color: hsl(268, 97%, 45%);
+  background-color: var(--primary-color);
 }
 .btn-primary:active {
-  background-color: hsl(268, 97%, 55%);
+  background-color: var(--primary-color);
 }
 .btn-outline-secondary:hover{
   background-color: black;
@@ -40,7 +40,7 @@ nav {
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: none;
